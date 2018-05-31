@@ -1,0 +1,66 @@
+h1{
+    font-size: 40px;
+    line-height: 47px;
+}
+.image{
+    
+    position:relative;
+    width:100%;
+    background-image: url("../../media/img/bg2.png");
+    background-size: cover;
+    height: 100vh;
+    background-position:75% 50%;
+    z-index:-1;
+}
+.list{
+    text-align: Left;
+position: relative;
+top: 100px;
+right:10px;
+left:40px;
+}
+#points{
+    font-style: Bold;
+font-size: 24px;
+line-height: 28px;
+text-align: Left;
+Fill: Solid
+#000000;
+}
+
+#point{
+    margin-top:20px;
+    font-size: 24px;
+}
+#heading{
+    margin-bottom: 50px;
+}
+#major{
+    font-size: 70px;
+    line-height: 82px;
+    font-style: bold;
+}dl {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  dt {
+    float: left;
+    width: 20%;
+    margin:0;
+    padding:0;
+  }
+  dd {
+    float: left;
+    width: 80%;
+    padding:0;
+    margin: 0;
+  }
+  #leftsection{
+      min-width: 500px;
+      z-index: 1;
+  }
+  #blank{
+      color:white;
+      margin:16px;
+  }

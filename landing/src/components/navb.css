@@ -1,0 +1,57 @@
+nav.navbar, .navbar-default {
+    /*background-color: #E01017 !important;
+  */}
+  
+  .navbar-default {
+    background-image: none;
+    border: none;
+    /*border-radius: 4%;
+  */}
+
+  .dotMetaNavItemBlack >a{
+    color:black;
+  }
+  .dotMetaNavItemWhite >a{
+    color:white;
+    
+  }
+.lwhite{
+  background-image: url("../media/img/logo.png");
+  z-index: 1;
+}
+.lblack{
+  background-image: url("../media/img/wlogo.png");
+  z-index: 1;
+}
+  
+  .navbar-default .navbar-toggle {
+    /*border-color: white;
+  */}
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+  
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: black;
+  }
+  .navbar-brand {
+    display: fixed !important;
+    align-items: center;
+  }
+  .navbar-brand>img {/*
+    padding: 7px 14px;*/
+  }
+  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+  }
+  .profile-pic{
+      width:28px;
+      border-radius: 50%;
+  }

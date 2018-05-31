@@ -1,0 +1,25 @@
+{
+  "name": "foldder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qpixsolutions/dotmeta-lp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qpixsolutions/dotmeta-lp/issues"
+  },
+  "homepage": "https://github.com/qpixsolutions/dotmeta-lp#readme",
+  "dependencies": {
+    "create-react-app": "^1.5.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-router": "^4.2.0"
+  }
+}
