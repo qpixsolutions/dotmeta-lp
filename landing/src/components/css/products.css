@@ -49,6 +49,7 @@ header{
 
 .card {
     padding-bottom:10px;
+    margin-bottom:10px;
     word-wrap: none;
     perspective: 4440px;
     box-shadow: 0 0 15px rgba(0,0,0,0.1);

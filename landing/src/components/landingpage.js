@@ -32,7 +32,7 @@ class Landing extends Component {
         sectionClassName:     'Section', // the section class name
         sectionPaddingTop:    '0', // the section top padding
         sectionPaddingBottom: '0', // the section bottom padding
-        sectionMarginBottom: '0',
+        sectionMarginBottom: '50px',
         verticalAlign:        true, // align the content of each section vertical
         scrollCallback:(states) => {
           if(states.activeSection === 1 || states.activeSection === 2){

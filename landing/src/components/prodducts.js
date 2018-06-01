@@ -15,91 +15,96 @@ class Prodducts extends Component {
         return (
             <Grid>
                 <Jumbotron id="whitespace">
-                <img id="lm" src={require("../media/img/lm.png")} />
+                    <img id="lm" src={require("../media/img/lm.png")} />
                     <h2> Products Features</h2>
                     <Row className="show-grid text-center">
                         <Col xs={12} md={4} lg={4} className="person-wrapper">
-                            <h4>Tailor Content <br /> For Every Viewer</h4>
+
 
                             <div className="card">
-                                    <div className="back">
-                                        <p id="but1" >  Customize your audience's<br /> viewing experience
+                                <h4>Tailor Content <br /> For Every Viewer</h4>
+                                <div className="back">
+                                    <p id="but1" >  Customize your audience's<br /> viewing experience
                         according <br /> to their location, device, <br />
-                                            demographics and more.
+                                        demographics and more.
                         </p></div>
 
-                                    <Link to="/about">
-                                        <img className="front" src={but1} alt="but1" />
-                                    </Link>
-                                </div>
+                                <Link to="/about">
+                                    <img className="front" src={but1} alt="but1" />
+                                </Link>
+                            </div>
 
                         </Col>
                         <Col xs={12} md={4} lg={4} className="person-wrapper">
 
-                            <h4>A/B Testing <br /> &#38; Analytics</h4>
+
 
                             <div className="card">
-                                    <div className="back">
-                                        <p id="but2" >Test out variations of your<br /> content and gain more insight <br /> about your audience
+                                <h4>A/B Testing <br /> &#38; Analytics</h4>
+                                <div className="back">
+                                    <p id="but2" >Test out variations of your<br /> content and gain more insight <br /> about your audience
                         </p>
-                                    </div>
-                                    <Link to="/about">
-
-                                        <img className="front" src={but2} alt="but2" />
-                                    </Link>
                                 </div>
+                                <Link to="/about">
+
+                                    <img className="front" src={but2} alt="but2" />
+                                </Link>
+                            </div>
                         </Col>
                         <Col xs={12} md={4} lg={4} className="person-wrapper">
-                            <h4>Amplify Reveneu <br /> Streams</h4>
-                            <div className="card">
-                            <div className="back">
-                            <p id="but3" > Earn more money than ever <br />
-                                before by customizing product <br /> placement &#38; sponsorships for <br /> every viewer.
-                             </p> </div>
-                            <Link to="/about">
 
-                                <img className="front" src={but3} alt="but3" />
-                            </Link>
+                            <div className="card">
+                                <h4>Amplify Reveneu <br /> Streams</h4>
+                                <div className="back">
+                                    <p id="but3" > Earn more money than ever <br />
+                                        before by customizing product <br /> placement &#38; sponsorships for <br /> every viewer.
+                             </p> </div>
+                                <Link to="/about">
+
+                                    <img className="front" src={but3} alt="but3" />
+                                </Link>
                             </div>
                         </Col>
                     </Row>
 
                     <Row className="show-grid text-center">
                         <Col xs={12} md={4} lg={4} className="person-wrapper">
-                            <h4>Infinite <br /> Connectivity</h4>
-                            <div className="card">
-                            <div className="back">
-                            <p id="but4" > Connect your videos to any API <br /> or database for endless <br /> customization. </p> </div>
-                            <Link to="/about">
 
-                                <img className="front" src={but4} alt="but4" />
-                            </Link>
+                            <div className="card">
+                                <h4>Infinite <br /> Connectivity</h4>
+                                <div className="back">
+                                    <p id="but4" > Connect your videos to any API <br /> or database for endless <br /> customization. </p> </div>
+                                <Link to="/about">
+
+                                    <img className="front" src={but4} alt="but4" />
+                                </Link>
                             </div>
                         </Col>
                         <Col xs={12} md={4} lg={4} className="person-wrapper">
-                            <h4>Update Videos <br /> After Publishing</h4>
                             <div className="card">
-                            <div className="back">
-                            <p id="but5" >Alter or update your video's <br /> scenes after sharing them, even <br /> in the middle of a campaign. </p>
-                            </div>
-                            <Link to="/about">
+                                <h4>Update Videos <br /> After Publishing</h4>
+                                <div className="back">
+                                    <p id="but5" >Alter or update your video's <br /> scenes after sharing them, even <br /> in the middle of a campaign. </p>
+                                </div>
+                                <Link to="/about">
 
-                                <img className="front" src={but5} alt="but5" />
-                            </Link>
+                                    <img className="front" src={but5} alt="but5" />
+                                </Link>
                             </div>
                         </Col>
                         <Col xs={12} md={4} lg={4} className="person-wrapper">
-                            <h4>Complex Story <br /> Possibilities</h4>
 
                             <div className="card">
-                                    <div className="back">
-                                        <p id="but6" > Extend your narrative across<br />
-                                            platforms and create stories the <br /> like of which the world has <br /> never seen.
+                                <h4>Complex Story <br /> Possibilities</h4>
+
+                                <div className="back">
+                                    <p id="but6" > Extend your narrative across<br />
+                                        platforms and create stories the <br /> like of which the world has <br /> never seen.
                             </p></div>
-                                    <Link to="/about">
+                                <Link to="/about">
 
-                                        <img className="front" src={but6} alt="but6" />
-                                    </Link>
+                                    <img className="front" src={but6} alt="but6" />
+                                </Link>
                             </div>
                         </Col>
                     </Row>

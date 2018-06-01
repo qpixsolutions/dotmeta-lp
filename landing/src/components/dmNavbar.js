@@ -21,8 +21,8 @@ class Navvbar extends Component {
   </Navbar.Header>
   <Nav>
     <NavItem className={this.props.navClass} eventKey={1} href="">
-       Your Name  
-       <Image src={require("../media/img/pp.png")} alt="profile picture"  className="profile-pic"/>
+    &#34; Your Name &#34; 
+       <Image src={require("../media/img/pro.png")} alt="profile picture"  className="profile-pic"/>
          {/* &#9776; */}
     </NavItem>
   
