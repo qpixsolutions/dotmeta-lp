@@ -35,7 +35,7 @@ class Landing extends Component {
         sectionMarginBottom: '50px',
         verticalAlign:        true, // align the content of each section vertical
         scrollCallback:(states) => {
-          if(states.activeSection === 1 || states.activeSection === 2){
+          if(states.activeSection === 1 || states.activeSection === 2 ){
             this.setState({navClass:"dotMetaNavItemBlack"})
             this.setState({navcolor:"lblack"})
             

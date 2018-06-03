@@ -1,4 +1,4 @@
-#signup{
+#signupp{
     width:414px;
     background: linear-gradient(to  right,#E01017,#69247D);
     border:none;
@@ -6,7 +6,9 @@
     height:76px;
     font-size: 28px;
     border-radius: 0;
-    
+    text-align: left;
+
+padding-left: 20px;
 }
 #cleanspace{
     width:109px;
@@ -29,20 +31,27 @@
    right: 109px;
 }
 #high{
-    margin:0 auto;
     
     margin-top:10px;
 }
 #mid{
-    margin:0 auto;
     margin-top:10px;
 }
 #low{
-    margin:0 auto;
-    margin-top:10px;
+    margin-top:30px;
+    
 }
 #bgg{
     z-index:-1;
+}
+#socialnet{
+    color:white;
+    position: absolute ;
+    right:0;
+    top:90%;
+}
+#sociallink{
+    margin:10px;
 }
 #mainf{
     position:relative;
@@ -82,7 +91,7 @@ top: 100px;
 right:10px;
 left:140px;
 background:rgb(0,0,0,0.7);
-padding-top:22px;
-padding-left:10px;
+padding-top:78px;
+padding-left:40px;
 
 }

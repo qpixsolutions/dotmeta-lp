@@ -12,7 +12,7 @@ class Abbout extends Component {
                 <Grid>
                     <Row className="show-grid text-center">
 
-                        <Col xs={12} md={4} lg={4} className="list">
+                        <Col xs={12} md={5} lg={5} className="list">
                             <div id="leftsection">
 
                                 <img id="lm" src={require("../media/img/lm.png")} />
@@ -27,7 +27,7 @@ class Abbout extends Component {
                                 </dl>
                             </div>
                         </Col>
-                        <Col xs={12} md={8} lg={8} className="image">
+                        <Col xs={12} md={7} lg={7} className="image">
 
                         </Col>
 

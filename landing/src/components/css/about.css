@@ -1,23 +1,29 @@
+/* *{
+    font-family: Futura;
+    src: url(futura.ttf);} */
 h1{
     font-size: 40px;
     line-height: 47px;
+}
+#mainsec{
+    height:100vh;
 }
 .image{
     
     position:relative;
     width:100%;
-    background-image: url("../../media/img/bg2.png");
-    background-size: cover;
-    height: 100vh;
-    background-position:75% 50%;
+    background-image: url("../../media/img/mac.png");
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position:81% 0%;
     z-index:-1;
 }
 .list{
     text-align: Left;
 position: relative;
-top: 100px;
+top: 55px;
 right:10px;
-left:40px;
+left:25px;
 }
 #points{
     font-style: Bold;
@@ -30,6 +36,7 @@ Fill: Solid
 
 #point{
     margin-top:20px;
+    padding-left:24px;
     font-size: 24px;
 }
 #heading{
@@ -39,7 +46,8 @@ Fill: Solid
     font-size: 70px;
     line-height: 82px;
     font-style: bold;
-}dl {
+}
+dl {
     width: 100%;
     padding: 0;
     margin: 0;
@@ -57,10 +65,11 @@ Fill: Solid
     margin: 0;
   }
   #leftsection{
-      min-width: 500px;
+      min-width: 400px;
       z-index: 1;
   }
   #blank{
       color:white;
+      /* height: 0; */
       margin:16px;
   }
