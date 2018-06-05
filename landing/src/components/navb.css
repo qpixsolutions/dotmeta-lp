@@ -1,6 +1,7 @@
 nav.navbar, .navbar-default {
     /*background-color: #E01017 !important;
-  */}
+  */
+}
   
   .navbar-default {
     background-image: none;
@@ -15,11 +16,20 @@ nav.navbar, .navbar-default {
     color:white;
     
   }
+  a.lwhite.navbar-brand {
+  
+    margin:0 !important;
+  }
 .lwhite{
+  
   background-image: url("../media/img/logo.png");
   z-index: 1;
 }
-.lblack{
+a.lblack.navbar-brand {
+
+  margin:0 !important;
+}  .lblack{
+  
   background-image: url("../media/img/wlogo.png");
   z-index: 1;
 }
@@ -55,3 +65,4 @@ nav.navbar, .navbar-default {
       width:28px;
       border-radius: 50%;
   }
+  

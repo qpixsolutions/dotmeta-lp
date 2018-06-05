@@ -9,7 +9,7 @@ class Navvbar extends Component {
   }
     render() {
         return(
-<Navbar>
+<Navbar fluid>
   <Navbar.Header>
     <Navbar.Brand>
     <a className={this.props.navcolor}href="#"> 
@@ -20,12 +20,13 @@ class Navvbar extends Component {
     </Navbar.Brand>
   </Navbar.Header>
   <Nav>
+{/*   
     <NavItem className={this.props.navClass} eventKey={1} href="">
     &#34; Your Name &#34; 
        <Image src={require("../media/img/pro.png")} alt="profile picture"  className="profile-pic"/>
-         {/* &#9776; */}
+         {/* &#9776; 
     </NavItem>
-  
+   */}
   </Nav>
 </Navbar>
                    );

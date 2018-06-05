@@ -1,4 +1,4 @@
-#signupp{
+#submit-btn{
     width:414px;
     background: linear-gradient(to  right,#E01017,#69247D);
     border:none;
@@ -13,17 +13,21 @@ padding-left: 20px;
 #cleanspace{
     width:109px;
 }
-#input1{
+#emailinput{
     width:411px;
     margin-bottom: 10px;
     display: block;
-   
-    height: 33px;
+   color:white;
+    height: 72px;
     background-color: black;
     border-color: rgb(10, 9, 9);
-    text-indent:22px;
+    
+    padding:20px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
 }
-.inputs{
+.right-section{
 
     text-align: left;
    line-height:28px;
@@ -41,9 +45,7 @@ padding-left: 20px;
     margin-top:30px;
     
 }
-#bgg{
-    z-index:-1;
-}
+
 #socialnet{
     color:white;
     position: absolute ;
@@ -53,7 +55,7 @@ padding-left: 20px;
 #sociallink{
     margin:10px;
 }
-#mainf{
+.lastpage{
     position:relative;
     width:100%;
     background-image: url("../../media/img/bg3.png");
@@ -62,36 +64,36 @@ padding-left: 20px;
     background-position:top;
     
 }
-#finish{
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: Bold;
+#proj-title{
+    font-weight: Bold;
     font-size: 96px;
     line-height: 79px;
-   
 }
-#brief{
-    font-style: bold;
+
+#proj-info{
+    font-weight: 300;
    
 font-size: 24px;
 line-height: 28px;
 text-align: left;
-fill: Solid#FFFFFF;
+fill: #FFFFFF;
+fill-opacity: 100%;
 }
-#pallet{
-    width:1064px;
+.blackblock{
+    position: relative;
+    width:90%;
     height:501px;
   /* background-image: url("../../media/img/bg.png");*/
-   
 text-align: Left;
-fill: Solid#FFFFFF;
+fill: #FFFFFF;
 color:#FFFFFF;
 z-index: 1;
-position: absolute;
-top: 100px;
-right:10px;
-left:140px;
 background:rgb(0,0,0,0.7);
 padding-top:78px;
 padding-left:40px;
 
+}
+.footer{
+    padding-top: 109px;
+    padding-left: 25px;
 }

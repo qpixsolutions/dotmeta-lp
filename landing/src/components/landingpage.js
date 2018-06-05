@@ -19,6 +19,7 @@ class Landing extends Component {
     state = {
       navClass:"dotMetaNavItemWhite",
       navcolor:"lwhite",
+      navsectionpointercolor:"white",
     };
     render() {
       let options = {

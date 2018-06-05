@@ -14,111 +14,109 @@ import but6 from '../but6.svg';
 class Prodducts extends Component {
     render() {
         return (
-            <Grid>
-                <div id="whitespace">
+            <Grid fluid>
+                <div id="pagetwo">
                     <div id="producttitle">
                         <img id="lm" src={require("../media/img/lm.png")} />
                         <h2> Products Features</h2>
                     </div>
-                    <div className="product">
+                    <div className="container">
                         <Row className="show-grid text-center">
-                            <Col xs={12} md={4} lg={4} className="person-wrapper">
+                            <Col xs={12} sm={6} md={4} lg={4} className="person-wrapper">
 
 
-                                <div className="card">
+                                <div className="productelement">
                                     <div id="brand">
                                         <h4>Tailor Content <br /> For Every Viewer</h4>
                                     </div>
-                                    <div className="back">
-                                        <p id="but1" >  Customize your audience's<br /> viewing experience
-                        according <br /> to their location, device, <br />
+                                    <div className="productdescription">
+                                        <p id="descriptiontext" >  Customize your audience's viewing experience
+                        according  to their location, device,
                                             demographics and more.
                         </p></div>
 
                                     <Link to="/about">
-                                        <img className="front" src={but1} alt="but1" />
+                                        <img className="productlogo" src={but1} alt="but1" />
                                     </Link>
                                 </div>
 
                             </Col>
-                            <Col xs={12} md={4} lg={4} className="person-wrapper">
+                            <Col xs={12} sm={6} md={4} lg={4} className="person-wrapper">
 
 
 
-                                <div className="card">
+                                <div className="productelement">
                                     <div id="brand">
                                         <h4>A/B Testing <br /> &#38; Analytics</h4>
                                     </div>
                                     <div className="back">
-                                        <p id="but2" >Test out variations of your<br /> content and gain more insight <br /> about your audience
+                                        <p id="descriptiontext" >Test out variations of your content and gain more insight about your audience
                         </p>
                                     </div>
                                     <Link to="/about">
 
-                                        <img className="front" src={but2} alt="but2" />
+                                        <img className="productlogo" src={but2} alt="but2" />
                                     </Link>
                                 </div>
                             </Col>
-                            <Col xs={12} md={4} lg={4} className="person-wrapper">
+                            <Col xs={12} sm={6} md={4} lg={4} className="person-wrapper">
 
-                                <div className="card">
+                                <div className="productelement">
                                     <div id="brand">
                                         <h4>Amplify Reveneu <br /> Streams</h4>
                                     </div>
                                     <div className="back">
-                                        <p id="but3" > Earn more money than ever <br />
-                                            before by customizing product <br /> placement &#38; sponsorships for <br /> every viewer.
+                                        <p id="descriptiontext" > Earn more money than ever
+                                            before by customizing product  placement &#38; sponsorships for  every viewer.
                              </p> </div>
                                     <Link to="/about">
 
-                                        <img className="front" src={but3} alt="but3" />
+                                        <img className="productlogo" src={but3} alt="but3" />
                                     </Link>
                                 </div>
                             </Col>
-                        </Row>
 
-                        <Row className="show-grid text-center">
-                            <Col xs={12} md={4} lg={4} className="person-wrapper">
+                            <Col xs={12} sm={6} md={4} lg={4} className="person-wrapper">
 
-                                <div className="card">
+                                <div className="productelement">
                                     <div id="brand">
                                         <h4>Infinite <br /> Connectivity</h4>
                                     </div>
                                     <div className="back">
-                                        <p id="but4" > Connect your videos to any API <br /> or database for endless <br /> customization. </p> </div>
+                                        <p id="descriptiontext" > Connect your videos to any API or database for endless  customization. </p> </div>
                                     <Link to="/about">
 
-                                        <img className="front" src={but4} alt="but4" />
+                                        <img className="productlogo" src={but4} alt="but4" />
                                     </Link>
                                 </div>
                             </Col>
-                            <Col xs={12} md={4} lg={4} className="person-wrapper">
-                                <div className="card">
+                            <Col xs={12} sm={6} md={4} lg={4} className="person-wrapper">
+                                <div className="productelement">
                                     <div id="brand">
                                         <h4>Update Videos <br /> After Publishing</h4>
                                     </div>
                                     <div className="back">
-                                        <p id="but5" >Alter or update your video's <br /> scenes after sharing them, even <br /> in the middle of a campaign. </p>
+                                        <p id="descriptiontext" >Alter or update your video's  scenes after sharing them, even in the middle of a campaign. </p>
                                     </div>
                                     <Link to="/about">
 
-                                        <img className="front" src={but5} alt="but5" />
+                                        <img className="productlogo" src={but5} alt="but5" />
                                     </Link>
                                 </div>
                             </Col>
-                            <Col xs={12} md={4} lg={4} className="person-wrapper">
+                            <Col xs={12} sm={6} md={4} lg={4} className="person-wrapper">
 
-                                <div className="card">
+                                <div className="productelement">
                                     <div id="brand">
                                         <h4>Complex Story <br /> Possibilities</h4>
                                     </div>
                                     <div className="back">
-                                        <p id="but6" > Extend your narrative across<br />
-                                            platforms and create stories the <br /> like of which the world has <br /> never seen.
+                                        <p id="descriptiontext" > Extend your narrative across
+                                            platforms and create stories the  like of which the world has never seen.
                             </p></div>
                                     <Link to="/about">
 
-                                        <img className="front" src={but6} alt="but6" />
+                                        <img className="productlogo" src={but6} alt="but6" />
                                     </Link>
                                 </div>
                             </Col>
