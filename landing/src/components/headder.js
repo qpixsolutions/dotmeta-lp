@@ -23,9 +23,9 @@ class Headder extends Component {
                     </p>
                                 
                             
-                            <div id="buttoncontainer">
+                            <div id="buttonholder">
                             <Link to="/join">
-                                    <Button id="signupbutton" >SIGN UP HERE </Button>
+                                    <Button id="signup-btn" >SIGN UP HERE </Button>
                                 </Link>
                                 </div>
                                 

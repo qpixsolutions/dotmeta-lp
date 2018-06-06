@@ -13,75 +13,89 @@
 
 #pagethree{
     height:100vh;
-    
+    padding-left: 26px;
+    padding-top: 70px;
     position:relative;
     width:100%;
     background-image: url("../../media/img/mac.png");
-    background-size: initial;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:100% 40%;
-    z-index:-1;
+    /* z-index:-1; */
 }
 
-.list{
+.numberpoints{
     text-align: Left;
-position: relative;
-top: 55px;
-right:10px;
-left:25px;
+/* position: relative; */
+
 }
 #points{
-    font-style: Bold;
+    padding-top: 25px;
+    padding-left: 0 !important;
 font-size: 24px;
 line-height: 28px;
 text-align: Left;
-Fill: 
-#000000;
+margin-bottom:0;
+Fill: #000000;
+display:inline-block;
+}
+dl{
+    list-style-type: none;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+dt{
+    width:25%;
+    padding:0;
+    margin:0;
+    float: left;
+}
+dd{
+    /* float: left; */
+    padding:0;
+    margin:0;
+    width:75%;
+    display: inline-block;
+}
+#point-text{
+    max-height: 90px;
+    padding-top: 10px;
+    vertical-align: bottom;
+}
+#point-text3{
+    max-height: 90px;
+    padding-top: 25px;
+    vertical-align: bottom;
 }
 
-#point{
-    margin-top:15px;
-    padding-left:auto;
+#point{ 
+    /* padding-top: 22px; */
+    padding-bottom: 22px;
+    margin-bottom: 19px;
+    margin-top: 30px;
     font-size: 24px;
-    line-height: 38px;
+    line-height: 28px;
     font-weight: 500;
+    /* border:solid #000; */
+    
 }
 #heading{
-    margin-bottom: 50px;
     font-size: 40px;
     line-height: 47px;
     font-weight: 700;
 }
 
-#pointnumber{
+#pointnumber {
+    padding-right: 25px;
     font-size: 70px;
     line-height: 82px;
     font-weight: bold;
 }
-dl {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  dt {
-    float: left;
-    width: 20%;
-    margin:0;
-    padding:0;
-  }
-  dd {
-    float: left;
-    width: 80%;
-    padding:0;
-    margin: 0;
-  }
-  #leftsection{
+
+  #leftsidesection{
       min-width: 400px;
       z-index: 1;
+      padding-top:0px;
   }
-  #blank{
-      color:white;
-      /* height: 0; */
-      margin:14px;
-      margin-top:0;
-  }
+ 

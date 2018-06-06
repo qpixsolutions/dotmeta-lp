@@ -56,6 +56,7 @@ button {
 .Navigation > a{
     background-color:#fff !important;
     border:solid !important;
-    border-radius: 50% !important;
+    border-width:1.5px !important;
+    border-radius: 60% !important;
     border-color: rgba(40,40,40,0.9) !important;
 }

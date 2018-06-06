@@ -1,13 +1,14 @@
-#buttoncontainer{
+#buttonholder{
     z-index:1;
     width:210px;
-    padding-left: 30px;
+    padding-left: 60px;
 }
-#signupbutton{
+#signup-btn{
     width:208px;
     background: linear-gradient(to  right,#E01017,#69247D);
     border:none;
     color:white;
+    /* padding-left: 25px; */
     height:76px;
     font-size: 28px;
     border-radius: 0;
