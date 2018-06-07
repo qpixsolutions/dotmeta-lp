@@ -9,6 +9,7 @@ import Prodducts from './prodducts.js';
 import Headder from './headder.js';
 import Footter from './dmFooter.js';
 import Abbout from './about.js';
+import Filler from './filler.js';
 //my css
 import './css/lp.css';
 //jquery
@@ -19,12 +20,12 @@ class Landing extends Component {
     state = {
       navClass:"dotMetaNavItemWhite",
       navcolor:"lwhite",
-      navsectionpointercolor:"white",
+      productfiller:"yes",
     };
     render() {
       let options = {
         activeClass:          'active', // the class that is appended to the sections links
-        anchors:              ['sectionOne','sectionTwo','sectionThree','sectionFour'], // the anchors for each sections
+        anchors:              ['sectionOne','sectionTwo','sectionThree','','sectionFour'], // the anchors for each sections
         arrowNavigation:      true, // use arrow keys
         className:            'SectionContainer', // the class name for the section container
         delay:                828, // the scroll animation speed
@@ -34,8 +35,20 @@ class Landing extends Component {
         sectionPaddingTop:    '0', // the section top padding
         sectionPaddingBottom: '0', // the section bottom padding
         sectionMarginBottom: '50px',
+        scrollOverflow :true, //for responsiveness ensureness
         verticalAlign:        true, // align the content of each section vertical
         scrollCallback:(states) => {
+          // if(states.activeSection===3){
+          //   this.setState({productfiller:"no"})
+          // }
+          // else{
+          //   this.setState({productfiller:"yes"})
+          // }
+          if(states.activeSection ===3){
+            // var pe=array(3)
+            // array(3)="bla"
+            // array(4)=pe
+          }
           if(states.activeSection === 1 || states.activeSection === 2 ){
             this.setState({navClass:"dotMetaNavItemBlack"})
             this.setState({navcolor:"lblack"})
@@ -57,6 +70,7 @@ class Landing extends Component {
           <SectionsContainer className="Containner" {...options}>
           <Section className="custom-section"  ><Headder /></Section>
           <Section color="#FFFFFF"><Prodducts /></Section>
+          <div className={this.state.productfiller}> <Filler/> </div>
           <Section >  <Abbout/></Section>
           <Section ><Footter/></Section>
           </SectionsContainer>

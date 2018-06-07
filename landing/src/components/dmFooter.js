@@ -13,18 +13,18 @@ class Footter extends Component {
     render() {
         return (
             <div className="lastpage">
-
+            
+            <div className="footer">
                 <Grid fluid>
-                <div className="footer">
                     <div className="blackblock">
                     <Row >
-                        <Col xs={12} md={6} lg={6} >
-                            <h1 id='proj-title'> Create<br /> your <br />video <br />now</h1>
+                        <Col xs={12} md={6} lg={6} className="left-section">
+                            <h1 id='proj-title'> Create your video now</h1>
                         </Col>
                         <Col xs={12} md={6} lg={6} className="person-wrapper">
                             <div className="right-section">
                                 <div id="high">
-                                    <p id="proj-info">Our beta program is now open to try out.<br />
+                                    <p id="proj-info">Our beta program is now open to try out.
                                         Enter your email below to get started!  </p>
                                 </div>
                                 <div id="mid">
@@ -42,8 +42,9 @@ class Footter extends Component {
                             </Col> */}
                     </Row>
                        </div>
-                        </div>    
                 </Grid>
+                
+                </div>    
                                 <div id="socialnet">
                                 <img id="sociallink" src={net1} alt="facebook" />
                                 <img id="sociallink" src={net2} alt="twitter" />

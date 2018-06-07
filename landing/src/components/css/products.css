@@ -11,16 +11,20 @@
     min-height: 100px;
 }
 
-#pagetwo{
+.pagetwo{
     width:100%;
     height:90vh;
     padding-top:60px;
+}
+#brand{
+    text-align: center;
 }
 #brand >h4{
     padding-top: 18px;
     font-size: 20px;
     line-height: 26px;
     font-weight: 700;
+    
 }
 header{
     color:black;
@@ -81,3 +85,78 @@ header{
     
     /*transform: rotateY( 360deg );
   */}
+
+  
+/*responsive*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+    .pagetwo{
+        text-align: center;
+        padding-top: 25px;
+    }
+    #lm{
+        display:none;
+    }
+    .productelement{
+        min-height: 180px;
+        max-height: 200px;
+        height: auto;
+        width:auto;
+        padding:0;
+        margin:auto;
+        
+    }
+    .line-two-1{
+        margin-top: 70px;
+    }
+        .productlogo {
+        max-width:60px;
+        min-height: 30px;
+        max-height: 60px;
+            height:auto;
+         
+            margin-top: 10px;
+        }
+        #brand{
+            padding:0;
+            margin:auto;
+        }
+    #producttitle {
+        padding:0;
+        height:auto;
+        margin:0;
+    }
+    #producttitle >h2{
+        font-size: 26px !important;
+    }
+    #brand >h4{
+        font-size: 20px;
+        margin:0;
+        padding:0;
+    }
+    .productdescription{
+        margin:0;
+    }
+    
+    #descriptiontext{
+        font-size: 16px;
+        height:auto;
+        width:auto;
+        min-width: 0;
+        min-height: 0;
+        padding:0 !important;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 

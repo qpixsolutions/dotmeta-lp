@@ -7,7 +7,7 @@ import './css/about.css';
 class Abbout extends Component {
     render() {
         return (
-            <div id="pagethree">
+            <div className="pagethree">
 
                 <Grid fluid>
                     <Row className=" ">

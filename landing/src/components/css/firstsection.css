@@ -21,15 +21,25 @@
     background-size: cover;
     height: 100vh;
     background-position:top;
+    min-width: 200px;
 }
-#sitetitle{
+#sitetitle , #sitetitle2 ,#sitetitle3{
     font-weight: Bold;
     font-size: 70px;
     line-height: 57px;
     padding-left:50px;
     padding-top:20px;
     max-width: 500px;
+    margin-bottom: 0px;
 }
+#sitetitle2{
+    padding-top:0;
+}
+#sitetitle3{
+    padding-top: 0px;
+    margin-bottom:8px;
+}
+
 #sitedescription{
     padding-right: 130px;
     padding-left:60px;
@@ -56,3 +66,102 @@ padding-left:10px;
     padding-top: 120px;
     padding-left: 25px;
 }
+/*responsive*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+    .pageone{
+        /* background-size: 100% auto;         */
+        /* height:; */
+        padding-top:30px;
+        width:max-content;
+        height:100%;
+        margin:0 auto;
+        text-align: center;
+    }
+    .dotmetacontainer{
+        padding-left:0;
+        text-align: center;
+        width:598px;
+    }
+    .blackcontainer{
+        width:400px !important;
+        height:auto;
+        text-align: center;
+        position: relative;
+    }
+ 
+    #sitetitle,#sitetitle2{
+        font-size: 26px;
+        line-height: 26px;
+        padding:0;
+        margin:auto;
+        
+    }
+    .titles{
+        width:300px;
+        display:block;
+    
+        margin:0 auto;
+        margin-left: 0;
+    }
+    #sitetitle3{
+        font-size: 26px;
+        line-height: 26px;
+        padding:0;
+        margin:auto;
+        margin-bottom: 8px;
+    }
+    #sitedescription{
+        max-width: 300px;
+        font-size: 16px;
+        padding-right:0;
+        padding:0;
+        padding-right: 22px;
+        line-height: 22px;
+        margin:0;
+        margin-bottom: 22px;
+    }
+    #signup-btn{
+        width:200px;
+        font-size: 20px;
+        height: auto;
+        padding:0;
+        margin:auto;
+        margin-bottom: 22px;
+    }
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .pageone{
+        height:auto;
+    }
+    .blackcontainer{
+        width:100%;
+
+    }
+    .dotmetacontainer{
+        width:100%;
+    }
+    #sitetitle{
+        font-size:16px;
+        line-height: 16px;
+    }
+    #sitedescription{
+        font-size:12px;
+        line-height: 12px;
+        
+    }
+    #signup-btn{
+        width:90%;
+    }
+
+}  */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 

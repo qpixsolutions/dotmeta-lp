@@ -11,9 +11,12 @@ class Headder extends Component {
                 <Grid fluid>
                 <div className="dotmetacontainer">
                     <Row className="show-grid text-center">
-                        <Col xs={12} md={12} lg={12} className="person-wrapper">
+                        <Col xs={12} sm={12} md={12} lg={12} className="person-wrapper">
                             <div className="blackcontainer">
-                                <h1 id='sitetitle'> Create videos that adapt to <br/>each viewer</h1>
+                            <div className="titles">    <h1 id='sitetitle'> Create videos </h1>
+                            <h1 id='sitetitle2'> that adapt to</h1>
+                            <h1 id='sitetitle3'> each viewer</h1>
+                                </div>
                                 <p id="sitedescription">A happy cloud. There we go. 
                                 God gave you this gift of imagination. 
                                 Use it. We'll do another happy little painting.

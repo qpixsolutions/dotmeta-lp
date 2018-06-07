@@ -1,0 +1,21 @@
+.yes{
+    display:none;
+    width:100%;
+    max-height: 0px;
+    height:0px;
+}
+.no{
+    display:none;
+    width:100%;
+    max-height: 0px;
+    height:0px;    
+}
+@media only screen and (max-width: 600px) {
+    .yes{
+        /* margin-top: 300px;
+        margin-bottom: 300px;
+         */
+         display:block;
+         height:640px;
+    }
+}
