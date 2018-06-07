@@ -161,8 +161,12 @@ padding-left:40px;
 } 
 
 /* Extra small devices (phones, 600px and down) */
-@media (min-width: 360px) and (max-width: 415px) {
+@media only screen 
+    and (min-width : 375px)  and (max-width: 420px)
+     {
     .lastpage{
+        height: 102%;
+        width:102%;
         text-align: center;
     }
     .footer{
@@ -172,47 +176,50 @@ padding-left:40px;
         padding:0;
         padding-top: 15px;
         text-align: center;
-        width:340px;
+        width:380px;
         height: auto;
     }
     #proj-title{
-        padding-left: 10px;
+        /* padding-left: 10px; */
         font-size: 28px;
         line-height: 28px;
+        margin:0 auto;
     }
     .rightsection{
         
         text-align: center;
-        width:300px;
+        width:380px;
     }
     #high{
-        width: 340px;
+        width: 380px;
     }
     #mid{
-        width: 340px;
+        width: 380px;
         padding-left: 15px;
     }
 
     #low{
-        width: 340px;
+        width: 380px;
         padding-left: 15px;
         margin-bottom: 20px;
     }
     #submit-btn{
-        width:300px;
+        width:350px;
         text-align: center;
         padding-left: 0;
         padding-right: 0;
     }
     #proj-info{
-        font-size: 20px;
+        font-size: 22px;
+        /* padding: 20px; */
         text-align: center;
+        margin:0 auto;
     }
     .left-section{
         text-align: center;
     }
     #emailinput{
-        width:300px;
+        width:350px;
     }
 
 } 

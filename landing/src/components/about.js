@@ -12,7 +12,7 @@ class Abbout extends Component {
                 <Grid fluid>
                     <Row className=" ">
 
-                        <Col xs={12} md={4} lg={4} className="numberpoints">
+                        <Col xs={12} sm={12} md={4} lg={4} className="numberpoints">
                             <div id="leftsidesection">
 
                                 <img id="blackrectangle" src={require("../media/img/lm.png")} />
@@ -29,7 +29,7 @@ class Abbout extends Component {
                                 </dl>
                             </div>
                         </Col>
-                        <Col xs={12} md={8} lg={8} >
+                        <Col xs={12} sm={12}md={8} lg={8} >
 
                         </Col>
 

@@ -133,9 +133,11 @@ dd{
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 362px) and (max-width: 415px) {
-
+@media only screen 
+    and (min-width : 375px)  and (max-width: 420px)
+     {
     .pagethree{
+        margin-top: 100px;
         text-align: center;
         background-image:none;
         
@@ -144,23 +146,27 @@ dd{
         display:none;
     }
     #point{
-        font-size: 16px;
+        font-size: 20px;
         margin:0;
+        margin-bottom: 10px;
     }
     #point-text{
-        font-size: 15px;
+        font-size: 22px;
         margin:0;
-        max-width: 220px;
+        max-width: 320px;
+        padding-left: 10px;
     }
 
     #point-text3{
-        font-size: 16px;
+        font-size: 22px;
         margin:0;
+        
+        padding-left: 10px;
     }
     #pointnumber{
-        width:55px;
-        font-size: 42px;
-        padding-right: 2px;
+        width:60px;
+        font-size: 50px;
+        padding-right: 12px;
     }
    
 

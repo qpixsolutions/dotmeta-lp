@@ -64,7 +64,7 @@
 
 /* Pixel*/
 @media only screen 
-    and (min-width : 375px) 
+    and (min-width : 375px)  and (max-width: 420px)
      {
     .pagetwo{
         text-align: center;
