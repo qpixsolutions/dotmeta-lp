@@ -21,16 +21,26 @@ class Landing extends Component {
       navClass:"dotMetaNavItemWhite",
       navcolor:"lwhite",
       productfiller:"yes",
+      scrollname:false,
     };
+    // componentDidMount(){
+    //   if(window.innerWidth <= 800 || window.innerHeight <= 800) {
+    //     this.setState({scrollname:true})
+    //   } else {
+    //     this.setState({scrollname:false})
+    //   }
+    //  }
+
+  
     render() {
       let options = {
         activeClass:          'active', // the class that is appended to the sections links
-        anchors:              ['sectionOne','sectionTwo','sectionThree','','sectionFour'], // the anchors for each sections
+        anchors:              ['sectionOne','sectionTwo','sectionThree','no','sectionFour'], // the anchors for each sections
         arrowNavigation:      true, // use arrow keys
         className:            'SectionContainer', // the class name for the section container
         delay:                828, // the scroll animation speed
-        navigation:           true, // use dots navigatio
-        scrollBar:            false, // use the browser default scrollbar
+        navigation:           true, // use dots navigation
+        scrollBar:            this.state.scrollname, // use the browser default scrollbar
         sectionClassName:     'Section', // the section class name
         sectionPaddingTop:    '0', // the section top padding
         sectionPaddingBottom: '0', // the section bottom padding
@@ -44,19 +54,15 @@ class Landing extends Component {
           // else{
           //   this.setState({productfiller:"yes"})
           // }
-          if(states.activeSection ===3){
-            // var pe=array(3)
-            // array(3)="bla"
-            // array(4)=pe
-          }
-          if(states.activeSection === 1 || states.activeSection === 2 ){
-            this.setState({navClass:"dotMetaNavItemBlack"})
-            this.setState({navcolor:"lblack"})
-            
-          } else {
+          
+          if(states.activeSection === 0 || states.activeSection === 3 || states.activeSection === 4 ){
+           
             this.setState({navClass:"dotMetaNavItemWhite"})
             this.setState({navcolor:"lwhite"})
             
+          } else {
+            this.setState({navClass:"dotMetaNavItemBlack"})
+            this.setState({navcolor:"lblack"})
           }
         }
       

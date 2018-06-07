@@ -103,8 +103,8 @@ padding-left:40px;
 
 /*responsive*/
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Galaxy */
+@media only screen and (max-width: 360px) {
    
     .lastpage{
         text-align: center;
@@ -160,9 +160,60 @@ padding-left:40px;
     }
 } 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Extra small devices (phones, 600px and down) */
+@media (min-width: 360px) and (max-width: 415px) {
+    .lastpage{
+        text-align: center;
+    }
+    .footer{
+        padding-left: 0;
+    }
+    .blackblock{
+        padding:0;
+        padding-top: 15px;
+        text-align: center;
+        width:340px;
+        height: auto;
+    }
+    #proj-title{
+        padding-left: 10px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .rightsection{
+        
+        text-align: center;
+        width:300px;
+    }
+    #high{
+        width: 340px;
+    }
+    #mid{
+        width: 340px;
+        padding-left: 15px;
+    }
 
+    #low{
+        width: 340px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+    #submit-btn{
+        width:300px;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #proj-info{
+        font-size: 20px;
+        text-align: center;
+    }
+    .left-section{
+        text-align: center;
+    }
+    #emailinput{
+        width:300px;
+    }
 
 } 
 

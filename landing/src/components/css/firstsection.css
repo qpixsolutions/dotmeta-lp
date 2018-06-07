@@ -69,7 +69,7 @@ padding-left:10px;
 /*responsive*/
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 361px) {
    
     .pageone{
         /* background-size: 100% auto;         */
@@ -83,10 +83,10 @@ padding-left:10px;
     .dotmetacontainer{
         padding-left:0;
         text-align: center;
-        width:598px;
+        width:340px;
     }
     .blackcontainer{
-        width:400px !important;
+        width:340px ;
         height:auto;
         text-align: center;
         position: relative;
@@ -114,12 +114,10 @@ padding-left:10px;
         margin-bottom: 8px;
     }
     #sitedescription{
-        max-width: 300px;
+        max-width: 320px;
         font-size: 16px;
         padding-right:0;
         padding:0;
-        padding-right: 22px;
-        line-height: 22px;
         margin:0;
         margin-bottom: 22px;
     }
@@ -133,7 +131,73 @@ padding-left:10px;
     }
 
 } 
+/*iphone + size*/
+@media screen and (min-width: 362px) and (max-width: 415px) {
+   
+    .pageone{
+        /* background-size: 100% auto;         */
+        /* height:; */
+        padding-top:30px;
+        width:max-content;
+        height:100%;
+        margin:0 auto;
+        text-align: center;
+    }
+    .dotmetacontainer{
+        padding-left:0;
+        text-align: center;
+        width:400px;
+    }
+    .blackcontainer{
+        width:380px;
+        height:auto;
+        text-align: center;
+        position: relative;
+        padding-left: 0;
+    }
+ 
+    #sitetitle,#sitetitle2{
+        font-size: 32px;
+        line-height: 32px;
+        padding:0;
+        margin:auto;
+        
+    }
+    #sitetitle3{
+        font-size: 32px;
+        line-height: 32px;
+        padding:0;
+        margin:auto;
+        margin-bottom: 8px;
+    }
+    .titles{
+        display:block;
+    
+        margin:0 auto;
+        margin-left: 0;
+    }
+    #sitedescription{
+        font-size: 20px;
+        padding:0;
+        padding-right: 0 !important;
+        margin:0;
+        margin-bottom: 22px;
+    }
+    #buttonholder{
+        text-align: center;
+        margin:0 auto;
+        padding-left: 0;
+    }
+    #signup-btn{
+        /* width:200px; */
+        font-size: 20px;
+        height: auto;
+        padding:0;
+        margin:auto;
+        margin-bottom: 22px;
+    }
 
+} 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* @media only screen and (min-width: 600px) {
     .pageone{

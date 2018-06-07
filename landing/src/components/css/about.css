@@ -100,7 +100,7 @@ dd{
   /*responsive*/
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 361px) {
    
     .pagethree{
         text-align: center;
@@ -133,8 +133,36 @@ dd{
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media (min-width: 362px) and (max-width: 415px) {
 
+    .pagethree{
+        text-align: center;
+        background-image:none;
+        
+    }
+    #blackrectangle{
+        display:none;
+    }
+    #point{
+        font-size: 16px;
+        margin:0;
+    }
+    #point-text{
+        font-size: 15px;
+        margin:0;
+        max-width: 220px;
+    }
+
+    #point-text3{
+        font-size: 16px;
+        margin:0;
+    }
+    #pointnumber{
+        width:55px;
+        font-size: 42px;
+        padding-right: 2px;
+    }
+   
 
 } 
 

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
 //my css
 import './css/products.css';
+import './css/products-mob.css';
 //svg icons
 import but1 from '../but1.svg';
 import but2 from '../but2.svg';
@@ -95,7 +96,7 @@ class Prodducts extends Component {
                                         <img className="productlogo" src={but5} alt="but5" />
                                 </div>
                             </Col>
-                            <Col xs={12} sm={6} md={4} lg={4} className="line-two">
+                            <Col xs={12} sm={6} md={4} lg={4} className="line-two-3">
 
                                 <div className="productelement">
                                     <div id="brand">
