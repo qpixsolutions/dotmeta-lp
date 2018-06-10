@@ -45,7 +45,7 @@ class Landing extends Component {
         sectionPaddingTop:    '0', // the section top padding
         sectionPaddingBottom: '0', // the section bottom padding
         sectionMarginBottom: '50px',
-        scrollOverflow :true, //for responsiveness ensureness
+        scrollOverflow :false, //for responsiveness ensureness
         verticalAlign:        true, // align the content of each section vertical
         scrollCallback:(states) => {
           // if(states.activeSection===3){

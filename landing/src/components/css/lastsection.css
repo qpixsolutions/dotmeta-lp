@@ -31,7 +31,7 @@ padding-left: 20px;
 
     text-align: left;
    line-height:28px;
-   width:414px;
+   /* width:414px; */
    /* right: 109px; */
 }
 #high{
@@ -80,6 +80,7 @@ line-height: 28px;
 text-align: left;
 fill: #FFFFFF;
 fill-opacity: 100%;
+max-width: 414px;
 }
 .blackblock{
     position: relative;
@@ -159,13 +160,71 @@ padding-left:40px;
         width:300px;
     }
 } 
+/*IPHONE X*/
+@media only screen and (min-width: 373px) and (max-width: 378px) and (min-height: 800px) and (max-height: 820px){
+    .lastpage{
+        text-align: center;
+    }
+    .footer{
+        padding-left: 0;
+    }
+    .blackblock{
+        padding:0;
+        padding-top: 15px;
+        text-align: center;
+        width:340px;
+        height: auto;
+    }
+    #proj-title{
+        padding-left: 10px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .rightsection{
+        
+        text-align: center;
+        width:300px;
+    }
+    #high{
+        width: 340px;
+    }
+    #mid{
+        width: 340px;
+        padding-left: 15px;
+    }
 
+    #low{
+        width: 340px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+    #submit-btn{
+        width:300px;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #proj-info{
+        font-size: 20px;
+        text-align: center;
+    }
+    .left-section{
+        text-align: center;
+    }
+    #emailinput{
+        width:300px;
+    }
+    #socialnet{
+        padding-top: 100px;
+        top:inherit !important;
+    }
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen 
-    and (min-width : 375px)  and (max-width: 420px)
+    and (min-width : 375px)  and (max-width: 420px) and (max-height: 800px)
      {
     .lastpage{
-        height: 102%;
+        height: 100%;
         width:102%;
         text-align: center;
     }
@@ -181,8 +240,8 @@ padding-left:40px;
     }
     #proj-title{
         /* padding-left: 10px; */
-        font-size: 28px;
-        line-height: 28px;
+        font-size: 40px;
+        line-height: 38px;
         margin:0 auto;
     }
     .rightsection{
@@ -192,10 +251,13 @@ padding-left:40px;
     }
     #high{
         width: 380px;
+        margin-bottom: 20px;
     }
     #mid{
         width: 380px;
         padding-left: 15px;
+        
+        margin-bottom: 20px;
     }
 
     #low{
@@ -210,8 +272,10 @@ padding-left:40px;
         padding-right: 0;
     }
     #proj-info{
-        font-size: 22px;
-        /* padding: 20px; */
+        font-size: 32px;
+        line-height: 40px;
+        padding: 5px;
+
         text-align: center;
         margin:0 auto;
     }
@@ -224,7 +288,132 @@ padding-left:40px;
 
 } 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/*PIXEL 2XL*/
+@media only screen and (min-width: 410px) and (min-height: 820px) and (max-height:829px) {
+    .lastpage{
+        text-align: center;
+        padding-top: 100px;
+        padding-left: 25px;
+    }
+    .footer{
+        padding-left: 0;
+    }
+    .blackblock{
+        padding:0;
+        padding-top: 15px;
+        text-align: center;
+        width:340px;
+        height: auto;
+    }
+    #proj-title{
+        padding-left: 10px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .rightsection{
+        
+        text-align: center;
+        width:300px;
+    }
+    #high{
+        width: 340px;
+    }
+    #mid{
+        width: 340px;
+        padding-left: 15px;
+    }
+
+    #low{
+        width: 340px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+    #submit-btn{
+        width:300px;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #proj-info{
+        font-size: 20px;
+        text-align: center;
+    }
+    .left-section{
+        text-align: center;
+    }
+    #emailinput{
+        width:300px;
+    }
+    #socialnet{
+        padding-top: 100px;
+        top:inherit !important;
+    }
+}
+/* Iphone SE */
+@media only screen and (max-width: 321px) {
+    .lastpage{
+        /* height: 100%;
+        width:100%; */
+        text-align: center;
+    }
+    .footer{
+        padding-left: 0;
+    }
+    .blackblock{
+        padding:0;
+        padding-top: 15px;
+        text-align: center;
+        width:300px;
+        height: auto;
+    }
+    #proj-title{
+        /* padding-left: 10px; */
+        font-size: 30px;
+        /* line-height: 38px; */
+        margin:0 auto;
+        padding-left: 0;
+    }
+    .rightsection{
+        
+        text-align: center;
+        width:280px;
+    }
+    #high{
+        width: 280px;
+        /* margin-bottom: 20px; */
+    }
+    #mid{
+        width: 300px;
+        padding-left: 10px;
+        margin:0;
+        /* margin-bottom: 20px; */
+    }
+
+    #low{
+        margin-top: 0;
+        width: 280px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    #submit-btn{
+        width:280px;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #proj-info{
+        font-size: 22px;
+        line-height: 40px;
+        padding: 5px;
+
+        text-align: center;
+        margin:0 auto;
+    }
+    .left-section{
+        text-align: center;
+    }
+    #emailinput{
+        width:280px;
+    }
 
 } 
