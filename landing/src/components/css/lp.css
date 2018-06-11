@@ -2,7 +2,12 @@ html,
 body {
 	margin: 0;
 }
-
+#lef{
+  background: burlywood;
+}
+#rig{
+  background: brown;
+}
 html {
   box-sizing: border-box;
 }
@@ -72,26 +77,16 @@ button {
     border-color: rgba(40,40,40,0.9) !important;
 }
 
-/*rest*/
-@media only screen and (min-width: 323px) and (max-width: 600px) and (min-height: 630px) and (max-height: 650px) {
-  .Navigation >a{
-    display:none !important;
-  }
-  .yes{
-    width:100%;
-    display: block;
-    margin-bottom:640px;
-  }
-  }
-  /*Iphone 6/7/8*/
-  @media only screen and (min-width: 373px) and (max-height: 680px) and (min-height: 660px) and (max-width: 378px){
+/*Iphone 678*/
+@media only screen and (max-width: 378px){
+
     .Navigation >a{
       display:none !important;
     }
     .yes{
       width:100%;
       display: block;
-      margin-bottom:670px;
+      margin-bottom:666px;
     }
   }
 /*iphone SE*/
@@ -130,3 +125,26 @@ button {
   }
 
 }
+
+/*Iphone 6 7 8*/
+@media only screen and (min-width: 410px) and (min-height: 730px ) and (max-height: 740px) and (max-width: 420px){
+  .Navigation >a{
+    display:none !important;
+  }
+  .yes{
+    width:100%;
+    display: block;
+    margin-bottom:736px;
+  }
+}
+/*rest*/
+@media only screen and (min-width: 323px) and (max-width: 600px) and (min-height: 630px) and (max-height: 650px) {
+  .Navigation >a{
+    display:none !important;
+  }
+  .yes{
+    width:100%;
+    display: block;
+    margin-bottom:640px;
+  }
+  }

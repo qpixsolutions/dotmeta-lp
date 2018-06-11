@@ -1,7 +1,10 @@
+//my dependencies
 import React, { Component} from 'react';
+import {Fullpage,HorizontalSlider ,Slide} from 'fullpage-react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
+
 import {ScrollToTopOnMount,SectionsContainer, Section, Header, Footer} from 'react-fullpage';
 //my components
 import Navvbar from './dmNavbar';
@@ -33,6 +36,36 @@ class Landing extends Component {
 
   
     render() {
+      const fullPageOptions = {
+        // for mouse/wheel events
+        // represents the level of force required to generate a slide change on non-mobile, 10 is default
+        scrollSensitivity: 7,
+      
+        // for touchStart/touchEnd/mobile scrolling
+        // represents the level of force required to generate a slide change on mobile, 10 is default
+        touchSensitivity: 7,
+        scrollSpeed: 500,
+        hideScrollBars: true,
+        enableArrowKeys: true
+      };
+      
+      const horizontalSliderProps = {
+        name: 'horizontalSlider1', // name is required
+        infinite: true, // enable infinite scrolling
+      };
+      
+      const horizontalSlides = [
+        <Slide id="rig"> Slide 2.1 </Slide>,
+        <Slide id="lef"> Slide 2.2 </Slide>
+      ];
+      horizontalSliderProps.slides = horizontalSlides;
+      
+      const slides = [
+        <HorizontalSlider {...horizontalSliderProps}></HorizontalSlider>,
+       
+      ];
+      fullPageOptions.slides = slides;
+      
       let options = {
         activeClass:          'active', // the class that is appended to the sections links
         anchors:              ['sectionOne','sectionTwo','sectionThree','no','sectionFour'], // the anchors for each sections
@@ -76,7 +109,9 @@ class Landing extends Component {
           <SectionsContainer className="Containner" {...options}>
           <Section className="custom-section"  ><Headder /></Section>
           <Section color="#FFFFFF"><Prodducts /></Section>
-          <div className={this.state.productfiller}> <Filler/> </div>
+      <div className={this.state.productfiller}> <Filler/> </div>
+          
+      {/* <Fullpage {...fullPageOptions} /> */}
           <Section >  <Abbout/></Section>
           <Section ><Footter/></Section>
           </SectionsContainer>
